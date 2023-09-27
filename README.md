@@ -4,6 +4,7 @@
 
 本機測試
 ```
+npm i
 npm run dev
 ```
 
