@@ -2,10 +2,10 @@
 
 # 雲市集圖資
 
-<aside>
-💡 Github Repo
-
-</aside>
+本機測試
+```
+npm run dev
+```
 
 # Directives
 ---
