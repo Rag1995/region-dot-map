@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "Vue.vscode-typescript-vue-plugin",
+    "microsoft.ESLint",
+    "jun-han.auto-rename-tag",
+    "JerryHong.autofilename",
+    "christian-kohler.path-intellisense",
+    "Kiss-Tamas.image-preview",
+    "street-side-software.code-spell-checker",
+    "Gruntfuggly.todo-tree",
+  ]
+}
