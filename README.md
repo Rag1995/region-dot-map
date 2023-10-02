@@ -9,7 +9,6 @@ npm run dev
 ```
 
 # Directives
----
 
 ## thousandsSeparatorDirective.ts
 
@@ -30,9 +29,7 @@ app.directive('thousands-separator', thousandsSeparatorDirective)
 app.mount('#app')
 ```
 
-# C**omponents**
-
----
+# Components
 
 ## BaseMap **基本地圖**
 

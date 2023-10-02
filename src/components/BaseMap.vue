@@ -29,6 +29,9 @@ const attribution = ref('&copy; <a href="https://www.mapbox.com/contribute/">Map
       v-model:zoom="_zoom"
       :use-global-leaflet="false"
       :center="center"
+      :min-zoom="6"
+      :max-bounds="[[21, 117], [27, 123]]"
+      :max-bounds-viscosity="1"
       :options="{
         attributionControl: false,
         zoomControl: false,
