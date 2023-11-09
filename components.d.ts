@@ -26,6 +26,7 @@ declare module '@vue/runtime-core' {
     BaseAreaMap: typeof import('./src/components/BaseAreaMap/Index.vue')['default']
     BaseMap: typeof import('./src/components/BaseMap.vue')['default']
     BaseMapBaseAreaMap: typeof import('./src/components/Base/Map/BaseAreaMap.vue')['default']
+    CompanyDotMap: typeof import('./src/components/CompanyDotMap/Index.vue')['default']
     copy: typeof import('./src/components/Leaflet/ControlAttribution copy.vue')['default']
     DotMap: typeof import('./src/components/DotMap/Index.vue')['default']
     DotMapRegion: typeof import('./src/components/DotMap/Region.vue')['default']

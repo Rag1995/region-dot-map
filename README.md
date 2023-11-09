@@ -64,3 +64,45 @@ app.mount('#app')
 	style="width: 400px; height: 500px;"
 />
 ```
+
+## CompanyDotMap **公司據點散點圖**
+
+公司據點散點圖
+
+### Props
+
+參數同上，只差在 **data** 必須為下列格式
+```json
+[
+  {
+    "uniformNo": "90495762",
+    "name": "內定股份有限公司",
+    "address": "臺北市中山區建國北路3段92號7樓",
+    "indSection": "G",
+    "indSectionNm": "批發及零售業",
+    "indGroup": "487",
+    "indGroupNm": "其他無店面零售業",
+    "mainPlanNo": "MAIN_PLAN_01",
+    "mainPlanName": "數位產業署-戰略攻頂",
+    "empGroup": "9人以下",
+    "xValueN": "121.534",
+    "yValueN": "25.0667"
+  },
+  ...
+]
+```
+
+### Example
+
+```jsx
+<DotMap
+  :zoom="6"
+  :center="[0,0]"
+  :data="data.datalist"
+  map-title="map-title"
+  legend-title="legend-title"
+  color="#059669"
+  class="example-map"
+	style="width: 400px; height: 500px;"
+/>
+```
